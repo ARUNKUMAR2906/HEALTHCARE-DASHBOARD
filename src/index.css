@@ -1,0 +1,32 @@
+.app-layout {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal layout */
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Sidebar (first child) */
+.app-layout > :nth-child(1) {
+  width: 15%;
+  background-color: #f6faff;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Header column (second child) */
+.main-area {
+  width: 40%;
+  background-color: #eef6fb;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.03);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+/* Dashboard column (third child) */
+.Dashboard {
+  width: 45%;
+  flex: 1;
+  background-color: #ffffff;
+  padding: 1rem;
+  overflow-y: auto;
+}

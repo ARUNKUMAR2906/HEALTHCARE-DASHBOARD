@@ -1,0 +1,32 @@
+.dash {
+  padding: 2px;
+}
+.header {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+.addBtn {
+  background: #3735a4;
+  color: white;
+  border: none;
+  border-radius: 18%;
+  width: 32px;
+  height: 32px;
+}
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 18%;
+  width: 32px;
+  height: 32px;
+}

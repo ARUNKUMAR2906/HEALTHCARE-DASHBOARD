@@ -1,0 +1,50 @@
+.cardContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 200px;
+  border-radius: 16px;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.3rem;
+}
+
+.primary {
+  background-color: #3c3cf4;
+  color: white;
+}
+
+.secondary {
+  background-color: #e6eaff;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.time {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.doctor {
+  font-size: 0.85rem;
+  color: inherit;
+}
