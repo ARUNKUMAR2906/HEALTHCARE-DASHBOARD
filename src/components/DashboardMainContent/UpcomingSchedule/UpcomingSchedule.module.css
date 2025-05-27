@@ -26,7 +26,7 @@
 .cardRow {
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .card {
@@ -56,4 +56,10 @@
   font-size: 0.9rem;
   font-weight: 500;
   color: #555;
+}
+
+@media screen and (max-width: 768px){
+  .cardRow{
+    flex-wrap: wrap;
+  }
 }
