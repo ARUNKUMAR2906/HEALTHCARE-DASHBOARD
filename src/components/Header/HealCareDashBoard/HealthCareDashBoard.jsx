@@ -62,6 +62,13 @@ export default function HealthDashboard() {
           </div>
         </div>
       </div>
+      <div className={styles.activity_module}>
+        <div className={styles.header}>
+          <h1>Activity</h1>
+          <span>3 appointment on this week</span>
+        </div>
+        <img src={Activity} alt="" />
+      </div>
     </>
   );
 }

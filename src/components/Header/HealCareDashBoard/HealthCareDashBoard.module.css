@@ -8,11 +8,13 @@
 }
 
 .leftSection {
-  width: 60%;
+  width: 51%;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: start;
+  background-color: #f8f9ff;
+  border-radius: 10px;
 }
 
 .bodyImage {
@@ -32,13 +34,13 @@
 
 .heart {
   top: 20%;
-  right: 1%;
+  right: -10%;
   background-color: #4f46e5;
 }
 
 .leg {
   bottom: 30%;
-  left: 2%;
+  left: -14%;
   background-color: #06b6d4;
 }
 
@@ -81,7 +83,7 @@
 }
 
 .card {
-  background-color: #f3f4f6;
+  background-color: #f8f9ff;
   padding: 1rem;
   display: flex;
   border-radius: 12px;
@@ -166,4 +168,35 @@
   text-decoration: underline;
   font-size: 14px;
 }
-
+.activity_module {
+  background-color: #f6faff;
+  border-radius: 8px;
+  padding: 0 1em 1em 1em;
+}
+.activity_module img {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+.activity_module span {
+  color: #8d8f91;
+}
+@media screen and (max-width: 768px) {
+  .header,
+  .container {
+    display: block;
+  }
+  .card {
+    width: 200px;
+  }
+  .leftSection {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .activity_module {
+    padding: 10px;
+  }
+  .activity_module img {
+    padding-top: 1em;
+  }
+}

@@ -1,5 +1,8 @@
 .dash {
   padding: 2px;
+  background-color: #f8f9ff;
+  padding: 1em;
+  border-radius: 10px;
 }
 .header {
   display: flex;

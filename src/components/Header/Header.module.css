@@ -2,16 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  gap: 1rem;
+  padding: 1rem 0;
 }
 .search {
   flex: 1;
-  margin: 0 1rem;
   padding: 0.5rem;
 }
 .actions {
   display: flex;
-  gap: 1rem;
 }
 .icon {
   display: flex;
